@@ -43,7 +43,8 @@ public class validateNavigationBarTest extends base{
 	
 	public void closewindow()
 	{
-		driver.close();
+		System.out.println("closing the driver");
+	        driver.close();
 	}
 	
 	
