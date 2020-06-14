@@ -55,7 +55,6 @@ public void getHeader() throws IOException
 	public void closewindow()
 	{
 		driver.close();
-		System.out.println("closing the driver");
 	}
 
 }
