@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="E2E2.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Validating navigation Bar(failed)" parallel="tests">
+    <classes>
+      <class name="E2E2.validateNavigationBarTest">
+        <methods>
+          <include name="getNavigation"/>
+          <include name="closewindow"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- E2E2.validateNavigationBarTest -->
+    </classes>
+  </test> <!-- Validating navigation Bar(failed) -->
+</suite> <!-- Failed suite [Suite] -->
